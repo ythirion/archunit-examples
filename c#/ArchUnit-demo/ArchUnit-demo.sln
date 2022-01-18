@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchUnit-demo", "ArchUnit-demo\ArchUnit-demo.csproj", "{4B6BF22B-1590-4E6E-B0A4-C808BF8B5EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchUnit-demo-tests", "ArchUnit-demo-tests\ArchUnit-demo-tests.csproj", "{888CCABF-1182-4A4B-945B-62BFD226700B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B6BF22B-1590-4E6E-B0A4-C808BF8B5EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6BF22B-1590-4E6E-B0A4-C808BF8B5EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6BF22B-1590-4E6E-B0A4-C808BF8B5EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6BF22B-1590-4E6E-B0A4-C808BF8B5EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888CCABF-1182-4A4B-945B-62BFD226700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888CCABF-1182-4A4B-945B-62BFD226700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888CCABF-1182-4A4B-945B-62BFD226700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888CCABF-1182-4A4B-945B-62BFD226700B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E2726B4-4C75-4B91-8803-4C04EC25F540}
+	EndGlobalSection
+EndGlobal

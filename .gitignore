@@ -44,5 +44,7 @@ classes/
 .dotty-ide-artifact
 .dotty-ide.json
 
-# Visual Studio Code
-.vscode
+# .NET
+.vs/
+bin/
+obj/
