@@ -38,9 +38,6 @@
     <Folder Include="Examples\Domain\" />
     <Folder Include="Examples\Models\" />
     <Folder Include="Examples\Controllers\" />
-    <Folder Include="Slices\" />
-    <Folder Include="Slices\Module1\" />
-    <Folder Include="Slices\Module2\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
