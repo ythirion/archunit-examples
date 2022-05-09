@@ -8,10 +8,10 @@ using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
 namespace ArchUnit.Demo.Tests
 {
-    public static class Demo
+    public static class ArchUnitExtensions
     {
         public static GivenTypesConjunction TypesInAssembly() =>
-            Types().That().ResideInAssembly("ArchUnit-demo");
+            Types().That().Are(Architecture.Types);
 
         private static readonly Architecture Architecture =
             new ArchLoader()

@@ -1,6 +1,6 @@
 ﻿using ArchUnitNET.Fluent.Syntax.Elements.Types;
 using Xunit;
-using static ArchUnit.Demo.Tests.Demo;
+using static ArchUnit.Demo.Tests.ArchUnitExtensions;
 
 namespace ArchUnit.Demo.Tests
 {

@@ -1,7 +1,7 @@
 ﻿using ArchUnit.Demo.Examples;
 using Xunit;
 using static ArchUnitNET.Fluent.ArchRuleDefinition;
-using static ArchUnit.Demo.Tests.Demo;
+using static ArchUnit.Demo.Tests.ArchUnitExtensions;
 
 namespace ArchUnit.Demo.Tests
 {
