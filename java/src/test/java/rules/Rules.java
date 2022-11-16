@@ -27,7 +27,7 @@ import static com.tngtech.archunit.library.dependencies.SlicesRuleDefinition.sli
 @AnalyzeClasses(packages = "rules", importOptions = ImportOption.DoNotIncludeTests.class)
 public class Rules {
     @ArchTest
-    public static final ArchRule cycles = ensureNoCycle("com.bil.commons.sample");
+    public static final ArchRule cycles = ensureNoCycle("com.sample");
 
     @ArchTest
     public static final ArchRule layersShouldBeRespected = layeredArchitecture()
